@@ -1,0 +1,65 @@
+body{
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Playfair Display', serif;
+color: white;
+}
+
+h1{
+  font-size: 120pt;
+  margin-bottom: 0px;
+  color: black;
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 50%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none; 
+  color: black; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spacingabovelab{
+  margin-top: 27vh;
+}
+
+ul{
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+    color: black;
+  
+}
+a:hover {
+  color:rgb(176, 171, 171);
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+/* If screen size is less than 394px wide, switch format
+@media screen and (max-width: 394px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 393px) {
+  div.example {
+    font-size: 120px;
+  }
+} */
